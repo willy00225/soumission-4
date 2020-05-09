@@ -1,0 +1,67 @@
+h1{
+	position: absolute left;
+	border: 1px solid black;/*j'ai ciblé le nom de mon produit tout en lui donnant une position absolue, de forme solide et de bordure 1px*/
+	background: silver;
+}
+#place1,#place2,#place3{/*dans le html j'ai déclaré des "id" de sorte à leur donner une position fixe */
+	text-align: center;
+}
+div div{
+	border: 1px solid black;/*là j'ai ciblé toutes les boites dans la grande boite tout en leur donnant une bordure un fond de couleur et une marge*/
+	background: silver;
+	margin: 10px;
+	padding:15px;
+}
+h2{
+	text-align: center;
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl{/*ici je me suis servi de boostrap envue d'adapter mes cibles à tout terminal*/
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-header{
+	text-align: right;
+}
+.justify-content-end{
+	float: right
+}
+}
+
+@media (min-width: 576px) {
+  .container-fluid {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 720px;
+  }
+  .nav-item,.active{
+  	display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    max-width: 960px;
+  }
+  .nav-item, .active{
+  	display: none;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1140px;
+  }
+  .nav-item, .active{
+  	display: none;
+}
+
+
+
+
+

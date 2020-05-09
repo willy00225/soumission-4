@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- les balises méta qui sont requis pour travailler avec boostrap; à ne pas oublier car c'est important -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="module3.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>MON RESTAURANT</title><!--nom de mon titre ----------->
+  </head>
+     <header><!--- c'est à ce niveau que je code ma barre de navigation----------->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><strong>FOOD, LLC</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-end">
+      <li class="nav-item active">
+        <a class="nav-link" href="#place1">poulet <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#place2">boeuf</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#place3">soshi</a>
+      </li>
+    </ul>
+  </div>
+</nav>  <!-- Navbar -->
+     </header><br/><br/>
+  <body>
+     <h2>notre menu</h2><br/><!--le menu de mon restaurant-->
+    <div class="container-fluid, container-sm, container-md, container-lg, container-xl"> <!-- là j'ai déclaré des attributs classe d'abord conteneur  pour qu'il puisse bien occuper tout la page et les autrespour ciblerles affichages sur différents appareils------->
+      <div id="lien1" class="enfant1">
+         <h3 id="place1">poulet</h3><br/><br/><!--premier menu avec un "id" de sorte à le cibler pour le positionner comme je le souhaite dans ma page et il y va de même pour les autres menus ciblés --->
+         <p>
+           Poulet Roti Africain
+            Une délicieuse recette de poulet entier, il est appelé « Poulet rôti ” mais le poulet n’est pas grillé.
+
+            Il est tout simplement bouilli dans les épices jusqu’à cuisson complète, puis frits dans de l’huile chaude. Généralement, en Afrique avant de frire toute viande  nous aimons d’abord la faire bouillir.
+         </p><br/>
+       </div>
+       <div id="lien2" class="enfant2">
+         <h3 id="place2">boeuf</h3><br/><br/>
+          <p>
+            Le bœuf haché est un type de préparation de viande bovine faite au hachoir manuel ou électrique par un cuisinier, un boucher ou au sein de l'industrie agroalimentaire. Elle peut être utilisée comme base dans de nombreuses recettes, telle quelle et assaisonnée, servir de base à une sauce ou consommée crue.
+          </p><br/>
+       </div>
+       <div id="lien3">
+         <h3 id="place3">soshi</h3><br/><br/>
+          <p>La soupe de poisson est une appellation générique désignant tous les potages généralement épais, réalisés à partir de divers animaux marins comestibles.Dans les pays côtiers au nord de la Méditerranée (Espagne, France, Italie, Croatie), on confectionne traditionnellement une soupe à base de poissons de roche, d'oignon, de lait ou de crème fraîche, de vin blanc, d'huile d'olive et autres ingrédients</p>
+       </div><br/>
+     </div>
+      <!-- Option JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS ; je l'ai eu dans le cdn de bootsrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
