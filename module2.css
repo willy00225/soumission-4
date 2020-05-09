@@ -1,0 +1,50 @@
+div div{
+	background:silver;/* j'ai ciblé tous les "div" contenu dans le grand block "div" auxquels j'ai apportéune marge exeterne et interne différentes ! evidemment pour le reajustement des blocks!!!*/
+	border: 1px solid black;
+	margin: 10px;
+	padding-bottom: -15px;
+
+}
+#maboite1{               /* j'ai défini des types id auxquels j'ai défini des couleurs de fond différentes pour les différencier*/
+	background: pink;
+	border: 1px solid black;/*j'ai aussi utiliser les proprités telles que "border" pour les bordures de mes id, "float" pour les faire flotter à droite de chaque contenant                        float: right; et "margin-top" pour ajuster mes boites flottantes*/
+	margin-top: -2px;
+	float: right;
+}
+#maboite2{
+	background:red;
+	border: 1px solid black;
+	float: right;
+	margin-top: -2px; 
+}
+#maboite3{
+	background: khaki;
+	border: 1px solid black;
+	float: right;
+	margin-top: -2px;
+}
+.letout{
+	display: flex;/*cette propriété m'a permi de repositionner comme je veux mes differentes boites*/
+}
+h1{
+	text-align: center;
+	/*centrer mon titre très important*/
+}
+/*media queries pour bureau*/
+@media screen and (min-width: 992px){
+	body{
+		background: white;
+	}
+}
+/*media queries pour tablette*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+	body{
+		background: silver;
+	}
+}
+/*media queries pour mobile*/
+@media screen and (max-width: 767px){
+	body{
+		background: siver
+	}
+}
